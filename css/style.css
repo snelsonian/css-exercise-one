@@ -1,6 +1,8 @@
 body
-  font-size: 14px;
+font-size: 14px;
 }
+
+/**this is the top **/
 
 nav {
   background color: yellow;
@@ -8,29 +10,42 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+h1 {
+ font-family: sans-serif;
+ font-size: 2em;
+}
+
+/**this is the bottom **/
 
 section {
   margin: 0 auto;
   width: 60%;
 }
 
-h1 {
-  font-family sans-serif;
-  font-size: 2em;
-}
 
-.example, h3 {
-  padding-top: 30px;
-  text-align center
-}
 
 h3 {
   font-size: 1.3em;
 }
 
+
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+.feature {
+  background-color: orange;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
